@@ -4,7 +4,7 @@ env:
       - PLAT=x86_64
       - UNICODE_WIDTH=32
       - BUILD_DEPENDS=""
-      - TEST_DEPENDS="futures mock pycares pycurl"
+      - TEST_DEPENDS="futures mock pycares"
       - WHEELHOUSE_UPLOADER_USERNAME=travis-worker
       # Following generated with
       # travis encrypt -r matthew-brett/pypi-wheel WHEELHOUSE_UPLOADER_SECRET=<the api key>
